@@ -40,7 +40,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 
 - 🏡 **Sector**: 89.44% of respondents were from rural areas, highlighting high vulnerability to CIHR due to healthcare and infrastructure gaps.
 
-![Screenshot 810](https://github.com/Onomedenor/QUANTIFYING-THE-ECONOMIC-BURDEN-OF-CLIMATE-INDUCED-HEALTH-RISKS-IN-NIGERIA/blob/main/Screenshot%20(810).png)
+![Screenshot 810]((https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(810).png))
 
 
 
