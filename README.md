@@ -33,7 +33,8 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 🧑‍🌾 **Gender**: 78.49% of respondents were male, indicating male-dominated agricultural households. Female household heads were more common in the South East.
 
   
-![Screenshot 807](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/edit/main/Screenshot%20(807).png)
+![Screenshot 807](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(807).png)
+
 
 
 
