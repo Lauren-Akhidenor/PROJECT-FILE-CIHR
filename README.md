@@ -41,14 +41,14 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 
 - 🏡 **Sector**: 89.44% of respondents were from rural areas, highlighting high vulnerability to CIHR due to healthcare and infrastructure gaps.
 
-![Screenshot 810]((https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(810).png))
+![Screenshot 810](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(810).png)
 
 
 
 - 📅 **Age**: The average age was 43.66 years. Majority were within the productive age bracket (18–47 years), linking to CIHR impact on labor force.
 
   
-![Screenshot 811](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/edit/main/Screenshot%20(811).png)
+![Screenshot 811](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(811).png)
 
 
 
@@ -57,7 +57,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 💍 **Marital Status**: 53% of respondents were married. Married households may face more pressure due to dependents, increasing CIHR susceptibility.
 
 
-![Screenshot 812](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(812).png)
+![Screenshot 812](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(812).png)
 
 
 
@@ -66,10 +66,10 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 🎓 **Parental Education**: Over 50% of respondents’ parents had no formal education, potentially limiting their access to climate-health information.
 
 
-![Screenshot 814](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(814).png)
+![Screenshot 814](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(814).png)
 
 
-![Screenshot 813](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(813).png)
+![Screenshot 813](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(813).png)
 
 
 
@@ -78,7 +78,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 💸 **Income**: The average income was ₦86,112/month, but the median was ₦25,000, indicating high income inequality and widespread poverty.
 
 
-![Screenshot 815](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(815).png)
+![Screenshot 815](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(815).png)
 
 
 
@@ -88,7 +88,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 
 
 
-![Screenshot 816](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(816).png)
+![Screenshot 816](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(816).png)
 
 
 
@@ -97,7 +97,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 🚑 **Access to Healthcare**: Average travel time to health facilities was 34.5 minutes. While most respondents spent <1 hour, up to 5 hours was recorded.
 
 
-![Screenshot 817](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(817).png)
+![Screenshot 817](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(817).png)
 
 
 
@@ -111,7 +111,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 
 
 
-![Screenshot 818](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(818).png)
+![Screenshot 818](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(818).png)
 
 
 -----
@@ -120,7 +120,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 > CIHR shows a **negative association** with food security (p = 0.164), suggesting increased health risks reduce access to food.  
 
 
-![Screenshot 819](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(819).png)
+![Screenshot 819](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(819).png)
 
 
 
