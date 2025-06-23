@@ -33,7 +33,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 🧑‍🌾 **Gender**: 78.49% of respondents were male, indicating male-dominated agricultural households. Female household heads were more common in the South East.
 
   
-![Screenshot 807](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(807).png)
+![Screenshot 807](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/edit/main/Screenshot%20(807).png)
 
 
 
@@ -47,7 +47,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 - 📅 **Age**: The average age was 43.66 years. Majority were within the productive age bracket (18–47 years), linking to CIHR impact on labor force.
 
   
-![Screenshot 811](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/blob/main/Screenshot%20(811).png)
+![Screenshot 811](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/edit/main/Screenshot%20(811).png)
 
 
 
