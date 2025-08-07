@@ -6,7 +6,7 @@
 
 ## 🔍 Overview
 
-This project evaluates the **economic burden of Climate-Induced Health Risks (CIHR)** across Nigeria using national survey data. It focuses on two key dimensions:
+This project evaluates the **economic burden of Climate-Induced Health Risks (CIHR)** across Nigeria using General Household Survey dataset wave 5 (2023/204). It focuses on two key dimensions:
 
 - 🌾 **Labour Productivity**: Impact of climate-induced health risks on agricultural output.
 - 🥣 **Food Security**: Household food access amidst climate-health stressors.
@@ -21,7 +21,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 | **Random-Effects Logistic Model**| Food security impact                   |
 
 - 📁 Data Source: *General Household Survey Panel (GHS-Panel) Wave 5 (2023/2024) focusing on post-planting household questionnaire*  
-- ⚙️ Tools: Microsoft Excel & R studio
+- ⚙️ Tools: Microsoft Excel & Economic modelling using R studio 
 - 📊 Outputs: Charts & regression summaries
 
 ---
@@ -105,7 +105,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 
   ---
 
-> 🔹 **Labour Productivity**:  
+> 🔹 **Labour Productivity using OLS regression model**:  
 > CIHR has a **positive but statistically insignificant** effect (p = 0.741) on labour productivity.  
 > This could be due to omitted socio-economic factors like access to healthcare.
 
@@ -116,7 +116,7 @@ This project evaluates the **economic burden of Climate-Induced Health Risks (CI
 
 -----
 
-> 🔹 **Food Security**:  
+> 🔹 **Food Security using Random-effect Logistic regression model**:  
 > CIHR shows a **negative association** with food security (p = 0.164), suggesting increased health risks reduce access to food.  
 
 
