@@ -6,7 +6,7 @@
 
 ## 🔍 Overview
 
-This project evaluates the **economic burden of Climate-Induced Health Risks (CIHR)** across Nigeria using General Household Survey dataset wave 5 (2023/204). It focuses on two key dimensions:
+This project evaluates the **economic burden of Climate-Induced Health Risks (CIHR)** across Nigeria. It focuses on two key dimensions:
 
 - 🌾 **Labour Productivity**: Impact of climate-induced health risks on agricultural output.
 - 🥣 **Food Security**: Household food access amidst climate-health stressors.
