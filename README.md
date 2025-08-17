@@ -1,174 +1,152 @@
 # 🌍 Quantifying the Economic Burden of Climate-Induced Health Risks in Nigeria
 
-> 🧪 *Analyzing how climate-related health shocks affect labour productivity and food security in Nigeria's agricultural households.*
+## 📑 Table of Contents
+1. [Project Overview](#-project-overview)
+2. [Data Source & Methodology](#-data-source--methodology)
+3. [Tools](#-tools)
+4. [Research Objectives](#-research-objectives)
+5. [Results](#-results)
+   - [Objective 1: Socioeconomic Characteristics](#objective-1-socioeconomic-characteristics-of-individuals)
+   - [Objective 2: Health and Consultation Patterns](#objective-2-health-and-consultation-patterns)
+   - [Objective 3: Food Security and Influencing Factors](#objective-3-food-security-and-influencing-factors)
+   - [Objective 4: Regression & Predictive Modeling](#objective-4-regression--predictive-modeling)
+6. [Results Dashboards & Visuals](#-results-dashboards--visuals)
+   - [ArcGIS Visualizations](#arcgis-visualizations)
+   - [Power BI Dashboards](#power-bi-dashboards)
+   - [Python Visualizations](#python-visualizations)
+7. [Insights](#-insights)
+8. [How to Run](#-how-to-run)
+9. [Contributing](#-contributing)
 
 ---
 
-## 🔍 Overview
+## 📘 Project Overview
+Climate change has substantial economic and health impacts in Nigeria. Increasing incidences of floods, heatwaves, and disease outbreaks affect both **labour productivity** and **food security**. This project investigates:  
 
-This project evaluates the **economic burden of Climate-Induced Health Risks (CIHR)** across Nigeria. It focuses on two key dimensions:
+1. Socioeconomic characteristics of individuals affected by climate-induced health risks.  
+2. Health consultation patterns, insurance coverage, and disease prevalence.  
+3. Food security status and its socioeconomic determinants.  
+4. Relationships between health costs, labour productivity, and food insecurity through **robust regression and machine learning models**.  
 
-- 🌾 **Labour Productivity**: Impact of climate-induced health risks on agricultural output.
-- 🥣 **Food Security**: Household food access amidst climate-health stressors.
-
----
-
-## 📈 Analytical Models Used
-
-| Model Type                        | Purpose                                |
-|----------------------------------|----------------------------------------|
-| **OLS Regression**               | Labor productivity impact              |
-| **Random-Effects Logistic Model**| Food security impact                   |
-
-- 📁 Data Source: *General Household Survey Panel (GHS-Panel) Wave 5 (2023/2024) focusing on post-planting household questionnaire*  
-- ⚙️ Tools: Microsoft Excel & Economic modelling using R studio 
-- 📊 Outputs: Charts & regression summaries
+Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Excel, visualized with **Power BI and ArcGIS**, and analyzed using **Python**.
 
 ---
 
-## 📊 Key Findings 
-
-## 🧍 Socio-Economic Characteristics
-
-- 🧑‍🌾 **Gender**: 78.49% of respondents were male, indicating male-dominated agricultural households. Female household heads were more common in the South East.
-
-  
-![Screenshot 807](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(807).png)
-
-
-
-
-
-- 🏡 **Sector**: 89.44% of respondents were from rural areas, highlighting high vulnerability to CIHR due to healthcare and infrastructure gaps.
-
-![Screenshot 810](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(810).png)
-
-
-
-- 📅 **Age**: The average age was 43.66 years. Majority were within the productive age bracket (18–47 years), linking to CIHR impact on labor force.
-
-  
-![Screenshot 811](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(811).png)
-
-
-
-
-
-- 💍 **Marital Status**: 53% of respondents were married. Married households may face more pressure due to dependents, increasing CIHR susceptibility.
-
-
-![Screenshot 812](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(812).png)
-
-
-
-
-
-- 🎓 **Parental Education**: Over 50% of respondents’ parents had no formal education, potentially limiting their access to climate-health information.
-
-
-![Screenshot 814](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(814).png)
-
-
-![Screenshot 813](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(813).png)
-
-
-
-
-
-- 💸 **Income**: The average income was ₦86,112/month, but the median was ₦25,000, indicating high income inequality and widespread poverty.
-
-
-![Screenshot 815](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(815).png)
-
-
-
-
-
-- 💼 **Employment**: a frequency of 433 respondents reported being unemployed, a critical factor increasing economic vulnerability to climate-health shocks.
-
-
-
-![Screenshot 816](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(816).png)
-
-
-
-
-
-- 🚑 **Access to Healthcare**: Average travel time to health facilities was 34.5 minutes. While most respondents spent <1 hour, up to 5 hours was recorded.
-
-
-![Screenshot 817](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(817).png)
-
-
-
-
-
-  ---
-
-> 🔹 **Labour Productivity using OLS regression model**:  
-> CIHR has a **positive but statistically insignificant** effect (p = 0.741) on labour productivity.  
-> This could be due to omitted socio-economic factors like access to healthcare.
-
-
-
-![Screenshot 818](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(818).png)
-
-
------
-
-> 🔹 **Food Security using Random-effect Logistic regression model**:  
-> CIHR shows a **negative association** with food security (p = 0.164), suggesting increased health risks reduce access to food.  
-
-
-![Screenshot 819](https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR/raw/main/Screenshot%20(819).png)
-
-
-
------
-
-> 🔹 Additional Notes:
-> - Gender and marital status were not significant.
-> - Age negatively affected productivity (**p = 0.027**).
-> - Women were 34.5% less likely to be food secure than men (**p = 0.049**).
-> - Rural areas were 69% more likely to be food secure than urban.
-
-These findings align with Akogun et al. (2021), who found sugarcane workers in Nasarawa State had increased productivity despite malaria, and Romanello et al. (2021), who noted food security vulnerability among climate-affected households.
+## 📊 Data Source & Methodology
+- **Dataset:** NBS microdata on individual health, labour, and food security.  
+- **Data Cleaning:** CSV → Excel → cleaned for missing values, formatting, and categorical consistency.  
+- **Analysis Tools:** Power BI for dashboards, ArcGIS for geospatial mapping, Python for regression and predictive modeling.  
+- **Sample Size:** 135 individuals.
 
 ---
 
-
-
-
-## 💡 Recommendations 
-
-To reduce CIHR and improve resilience:
-
-- 🌱 **Adopt climate-resilient agricultural practices**
-- 🛰️ **Integrate early warning systems and CIHR assessments** into policy
-- 👩‍🌾 **Support gender-sensitive climate adaptation strategies**
-- 🧮 **Link health and labor data** for future modeling
-- 📈 **Strengthen health-labor-agriculture data collection** nationwide
+## 🛠️ Tools
+- **ArcGIS in Power BI** – mapping disease prevalence and food insecurity across LGAs.  
+- **Power BI** – dashboards of socioeconomic characteristics, health costs, and food security indicators.  
+- **Python** – Pandas, Numpy, Statsmodels, Scikit-learn, XGBoost, Matplotlib.  
 
 ---
 
-## 👩🏽‍💻 For Policymakers & Researchers
-
-This project supports the development of:
-- **Evidence-based, climate-smart strategies**
-- **Health-inclusive agricultural policies**
-- **Integrated responses** to climate-induced food insecurity
-
-
+## 🎯 Research Objectives
+- Describe socioeconomic characteristics of individuals affected by climate-induced health risks.  
+- Examine health consultation patterns and insurance uptake.  
+- Assess food security and identify key influencing factors.  
+- Model the relationship between health costs, labour productivity, and food insecurity using regression and machine learning.
 
 ---
 
-## 💻 Repository Layout
+## 📊 Results
 
-```text
-├── data/              # Cleaned and processed datasets (from GHS-Panel)
-├── models/            # R scripts and notebooks for OLS & logistic regression
-├── visualizations/    # All charts, plots, and visual outputs
-├── report/            # Final project write-up (PDF)
-└── README.md          # Project summary and documentation
+### Objective 1: Socioeconomic Characteristics of Individuals
+- **Gender:** 78.52% male, 21.48% female.  
+- **Average Age:** 41.61 years.  
+- **Average Household Size:** 5–6 members.  
+- **Education:** Father and Mother’s education varied by zone, with significant proportions lacking formal education.  
+- **Sectoral Distribution:** North vs South, urban vs rural (visualized in ArcGIS and Power BI).
+
+---
+
+### Objective 2: Health and Consultation Patterns
+- **Average Hours Worked:** 198.87 hours.  
+- **Average Absence Due to Illness:** 0.98 days.  
+- **Common Illnesses:** Malaria, typhoid, body pains, headache, ulcer/stomach pain.  
+- **Consultation Places:** Hospital, clinic, chemist, home.  
+- **Insurance Coverage:** Very low uptake; most individuals pay out-of-pocket.  
+
+---
+
+### Objective 3: Food Security and Influencing Factors
+- **Food Insecurity Prevalence:** 16.3% of individuals experienced food insecurity.  
+- **Influencing Variables:** Monthly income, sector, zone, skipping meals, borrowing food.  
+- **Key Observations:**  
+  - Food insecurity more likely in **North Central** and **North East**.  
+  - Lower income and inability to purchase food significantly increased food insecurity risk.  
+
+---
+
+### Objective 4: Regression & Predictive Modeling
+
+#### Robust Linear Model: Labour Productivity
+| Predictor         | Coefficient | P-value | Interpretation                                         |
+|------------------|------------|---------|-------------------------------------------------------|
+| Age               | -40.52     | 0.028   | Older individuals have lower productivity            |
+| Sector_1          | -265.41    | 0.000   | Sectoral differences strongly affect productivity    |
+| Other predictors  | NS         | >0.05   | Not statistically significant but relevant for policy|
 
 
+#### Logistic Regression: Food Insecurity
+- Pseudo R²: 0.165  
+- Predictors: Health cost, days stopped from work, gender, sector, zone.  
+- Machine Learning Models:  
+  - **Decision Tree:** 100% accuracy (small test set).  
+  - **Random Forest:** 97.78% mean CV accuracy, top features: income, borrowing food, restricted consumption.  
+  - **XGBoost:** 97.04% mean CV accuracy.
+
+---
+
+## 📂 Results Dashboards & Visuals
+
+### ArcGIS Visualizations
+<details>
+<summary>Click to expand ArcGIS visualizations</summary>
+<img src="Screenshot (950).png" width="700">
+<img src="Screenshot (951).png" width="700">
+<img src="Screenshot (952).png" width="700">
+</details>
+
+### Power BI Dashboards
+<details>
+<summary>Click to expand Power BI visualizations</summary>
+<img src="Screenshot (953).png" width="700">
+<img src="Screenshot (954).png" width="700">
+<img src="Screenshot (955).png" width="700">
+<img src="Screenshot (956).png" width="700">
+<img src="Screenshot (957).png" width="700">
+</details>
+
+### Python Visualizations
+- **Feature importance** (Random Forest) for food insecurity.  
+- **Predicted probabilities** of food insecurity.  
+- **Distribution of labour productivity vs health costs.**  
+
+<details>
+<summary>Click to expand Python Visualizations</summary>
+<img src="Screenshot_Python1.png" width="700">
+<img src="Screenshot_Python2.png" width="700">
+</details>
+
+---
+
+## 🔍 Insights
+- Climate-induced health risks reduce **labour productivity** and increase **food insecurity**.  
+- **Sector, age, and income** are critical factors affecting productivity and food security.  
+- **Policy Implications:** Focused health interventions and food support programs in vulnerable zones are essential.  
+- ArcGIS and Power BI highlight **regional disparities**, enabling targeted action.
+
+---
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/Lauren-Akhidenor/PROJECT-FILE-CIHR.git
+cd PROJECT-FILE-CIHR
+pip install -r requirements.txt
