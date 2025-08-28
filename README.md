@@ -1,4 +1,4 @@
-# 🌍 Quantifying the Economic Burden of Climate-Induced Health Risks in Nigeria
+# QUANTIFYING THE ECONOMIC BURDEN OF CLIMATE-INDUCED HEALTH RISKS IN NIGERIA 
 
 ## 📑 Table of Contents
 1. [Project Overview](#-project-overview)
@@ -20,7 +20,7 @@
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 Climate change has substantial economic and health impacts in Nigeria. Increasing incidences of floods, heatwaves, and disease outbreaks affect both **labour productivity** and **food security**. This project investigates:  
 
 1. Socioeconomic characteristics of individuals affected by climate-induced health risks.  
@@ -32,7 +32,7 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 
 ---
 
-## 📊 Data Source & Methodology
+## Data Source & Methodology
 - **Dataset:** NBS microdata on individual health, labour, and food security.  
 - **Data Cleaning:** CSV → Excel → cleaned for missing values, formatting, and categorical consistency.  
 - **Analysis Tools:** Power BI for dashboards, ArcGIS for geospatial mapping, Python for regression and predictive modeling.  
@@ -40,14 +40,14 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 
 ---
 
-## 🛠️ Tools
+## Tools
 - **ArcGIS in Power BI** – mapping disease prevalence and food insecurity across LGAs.  
 - **Power BI** – dashboards of socioeconomic characteristics, health costs, and food security indicators with **AI features**.  
 - **Python** – Pandas, Numpy, Statsmodels, Scikit-learn, XGBoost, Matplotlib.  
 
 ---
 
-## 🎯 Research Objectives
+## Research Objectives
 - Describe socioeconomic characteristics of individuals affected by climate-induced health risks.  
 - Examine health consultation patterns and insurance uptake.  
 - Assess food security and identify key influencing factors.  
@@ -55,7 +55,7 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 
 ---
 
-## 📊 Results
+## Results
 
 ### Objective 1: Socioeconomic Characteristics of Individuals
 - **Gender:** 78.52% male, 21.48% female.  
@@ -117,7 +117,7 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 
 ---
 
-## 📂 Results Dashboards & Visuals
+## Results Dashboards & Visuals
 
 ### ArcGIS Visualizations
 <details>
@@ -157,7 +157,7 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 
 ---
 
-## 🔍 Insights
+## Insights
 - Climate-induced health risks reduce **labour productivity** and increase **food insecurity**.  
 - **Sector, age, and income** are critical factors affecting productivity and food security.  
 - **Policy Implications:** Focused health interventions and food support programs in vulnerable zones are essential.  
