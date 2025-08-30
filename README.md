@@ -1,4 +1,4 @@
-# QUANTIFYING THE ECONOMIC BURDEN OF CLIMATE-INDUCED HEALTH RISKS IN NIGERIA 
+# Quantifying the Economic Burden of Climate-Induced Health Risks in Nigeria
 
 ## 📑 Table of Contents
 1. [Project Overview](#-project-overview)
