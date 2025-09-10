@@ -21,11 +21,11 @@
 ---
 
 ## Project Overview
-Climate change has substantial economic and health impacts in Nigeria. Increasing incidences of floods, heatwaves, and disease outbreaks affect both **labour productivity** and **food security**. This project investigates:  
+Climate change has substantial economic and health impacts in Nigeria. Increasing incidences of floods, heatwaves, and disease outbreaks affect both **labour productivity** and **food insecurity**. This project investigates:  
 
 1. Socioeconomic characteristics of individuals affected by climate-induced health risks.  
 2. Health consultation patterns, insurance coverage, and disease prevalence.  
-3. Food security status and its socioeconomic determinants.  
+3. Food insecurity status and its socioeconomic determinants.  
 4. Relationships between health costs and labour productivity through **robust regression and machine learning models**.  
 
 Data was extracted from **Nigerian Bureau of Statistics (NBS)**, cleaned in Excel, visualized with **Power BI and ArcGIS**, and analyzed using **Python**.
@@ -42,7 +42,7 @@ Data was extracted from **Nigerian Bureau of Statistics (NBS)**, cleaned in Exce
 
 ## Tools
 - **ArcGIS in Power BI** – mapping disease prevalence and food insecurity across LGAs.  
-- **Power BI** – dashboards of socioeconomic characteristics, health costs, and food security indicators with **AI features**.  
+- **Power BI** – dashboards of socioeconomic characteristics, health costs, and food insecurity indicators with **AI features**.  
 - **Python** – Pandas, Numpy, Statsmodels, Scikit-learn, XGBoost, Matplotlib.  
 
 ---
@@ -50,7 +50,7 @@ Data was extracted from **Nigerian Bureau of Statistics (NBS)**, cleaned in Exce
 ## Research Objectives
 - Describe socioeconomic characteristics of individuals affected by climate-induced health risks.  
 - Examine health consultation patterns and insurance uptake.  
-- Assess food security and identify key influencing factors.  
+- Assess food insecurity and identify key influencing factors.  
 - Model the relationship between health costs, labour productivity using regression and machine learning.
 
 ---
@@ -75,7 +75,7 @@ Data was extracted from **Nigerian Bureau of Statistics (NBS)**, cleaned in Exce
 
 ---
 
-### Objective 3: Food Security and Influencing Factors
+### Objective 3: Food Insecurity and Influencing Factors
 
 | Predictor           | Coefficient | Odds Ratio (OR) | 95% CI (OR)       | P-value | Interpretation                                           |
 |--------------------|------------|----------------|-----------------|---------|---------------------------------------------------------|
