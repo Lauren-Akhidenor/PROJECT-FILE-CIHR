@@ -51,7 +51,7 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 - Describe socioeconomic characteristics of individuals affected by climate-induced health risks.  
 - Examine health consultation patterns and insurance uptake.  
 - Assess food security and identify key influencing factors.  
-- Model the relationship between health costs, labour productivity, and food insecurity using regression and machine learning.
+- Model the relationship between health costs, labour productivity using regression and machine learning.
 
 ---
 
@@ -90,31 +90,33 @@ Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Exce
 | zone_South West     | -1.5018    | 0.22           | 0.012 – 4.13    | 0.314   | Not significant                                        |
 | Constant            | 19.6601    | 3.44e+08       | 0 – 7.56e+03    | 0.996   | Baseline intercept                                      |
 
-- **Food Insecurity Prevalence:** 16.3% of individuals experienced food insecurity.  
-- **Influencing Variables:** Health costs, days to stop work, gender, sector, zone (from your dataset).  
-- **Key Observations:**  
+**Logistic Regression: Food Insecurity**
+- R²: 0.165  
+- Predictors: Health cost, days stopped from work, gender, sector, zone.  
+
+**Food Insecurity Prevalence:** 16.3% of individuals experienced food insecurity. 
+
+**Influencing Variables:** Health costs, days to stop work, gender, sector, and zone.
+
+**Key Observations:**  
   - No predictor was statistically significant in the logit model.  
-  - The prevalence aligns with descriptive counts from your dataset.
+  - The prevalence aligns with descriptive counts from the dataset.
 
 ---
 
-### Objective 4: Regression & Predictive Modeling
+### Objective 4: Robust Linear Regression Model and Machine Learning
 
 #### Robust Linear Model: Labour Productivity
 | Predictor         | Coefficient | P-value | Interpretation                                         |
 |------------------|------------|---------|-------------------------------------------------------|
 | Age               | -40.52     | 0.028   | Older individuals have lower productivity            |
 | Sector_1          | -265.41    | 0.000   | Sectoral differences strongly affect productivity    |
-| Other predictors  | NS         | >0.05   | Not statistically significant but relevant for policy|
+| Other predictors  | NS         | >0.05   | Not statistically significant                        |
 
-#### Logistic Regression: Food Insecurity
-- Pseudo R²: 0.165  
-- Predictors: Health cost, days stopped from work, gender, sector, zone.  
 - Machine Learning Models:  
   - **Decision Tree:** 100% accuracy (small test set).  
-  - **Random Forest:** 97.78% mean CV accuracy, top features: income, borrowing food, restricted consumption.  
-  - **XGBoost:** 97.04% mean CV accuracy.
-
+  - **Random Forest:** 97.78% CV accuracy, top features: income, borrowing food, restricted consumption.  
+  - **XGBoost:** 97.04% CV accuracy
 ---
 
 ## Results Dashboards & Visuals
