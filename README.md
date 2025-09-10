@@ -62,7 +62,7 @@ Data was extracted from **Nigerian Bureau of Statistics (NBS)**, cleaned in Exce
 - **Average Age:** 41.61 years.  
 - **Average Household Size:** 5–6 members.  
 - **Education:** Father and Mother’s education varied by zone, with significant proportions lacking formal education.  
-- **Sectoral Distribution:** North vs South, urban vs rural (visualized in ArcGIS and Power BI).
+- **Sectoral Distribution:** North vs South, urban vs rural.
 
 ---
 
