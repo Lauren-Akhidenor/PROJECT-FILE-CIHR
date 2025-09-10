@@ -26,7 +26,7 @@ Climate change has substantial economic and health impacts in Nigeria. Increasin
 1. Socioeconomic characteristics of individuals affected by climate-induced health risks.  
 2. Health consultation patterns, insurance coverage, and disease prevalence.  
 3. Food security status and its socioeconomic determinants.  
-4. Relationships between health costs, labour productivity, and food insecurity through **robust regression and machine learning models**.  
+4. Relationships between health costs and labour productivity through **robust regression and machine learning models**.  
 
 Data was extracted from **National Bureau of Statistics (NBS)**, cleaned in Excel, visualized with **Power BI and ArcGIS**, and analyzed using **Python**.
 
