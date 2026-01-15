@@ -13,7 +13,13 @@
    - [Objective 3: Food Security and Influencing Factors](#objective-3-food-security-and-influencing-factors)
    - [Objective 4: Regression & Predictive Modelling](#objective-4-regression--predictive-modelling)
 6. [Results Dashboards & Visuals](#results-dashboards--visuals)
-7. [Insights](#insights)
+ [Key Study Statistics](#key-study-statistics)
+7. [The Climate-Health-Productivity Nexus](#the-climate-health-productivity-nexus)
+8. [Critical Findings for Intervention Design](#critical-findings-for-intervention-design)
+   - [Top ML Predictors of Vulnerability](#top-ml-predictors-of-vulnerability)
+   - [Significant Regression Findings](#significant-regression-findings)
+9. [Demographic Profile for Targeting](#demographic-profile-for-targeting)
+10. [Policy Implication](#Policy-Implication)
 
 
 ---
@@ -101,10 +107,60 @@ This study examines socioeconomic characteristics, health consultation patterns,
 
 ---
 
-## Insights
-- Climate-induced health risks reduce **labour productivity** and exacerbate **food insecurity**  
-- Sector, age, and income are critical determinants of productivity and food security  
-- Policy implications: targeted health interventions, social support, and food programmes for vulnerable populations  
-- Geospatial and dashboard analyses highlight **regional disparities** and inform evidence-based planning  
+## Key Study Statistics
+
+| Metric           | Value                    | Policy Implication                                 |
+|-----------------|-------------------------|---------------------------------------------------|
+| Sample           | 135 individuals         | Microdata for targeted interventions             |
+| Food Insecurity  | 16.3% prevalence        | 1 in 6 households vulnerable                     |
+| Avg Hours Worked | 198.87/month            | Productivity baseline to protect                 |
+| Illness Absence  | 0.98 days avg           | Economic cost of climate-related health impacts  |
+| ML Accuracy      | 97%+ (RF & XGBoost)    | Predictive targeting is possible                 |
+
+---
+
+## The Climate-Health-Productivity Nexus
+
+Climate Events → Disease Outbreaks → Health Costs → Reduced Productivity → Food Insecurity
+↓ (malaria, typhoid) ↓ ↓ ↓
+Floods/Heat → Out-of-pocket spending → Lost workdays → Income loss → Hunger/Borrowing
+
+
+**Interpretation:**  
+Climate shocks like floods and heat waves increase disease burden, driving **health expenditures, lost workdays, income reduction, and food insecurity**.  
+
+---
+
+## Critical Findings for Intervention Design
+
+### Top ML Predictors of Vulnerability
+- **Income level** – Primary determinant of household resilience  
+- **Food borrowing** – Early warning signal for crisis  
+- **Restricted consumption** – Indicator of imminent food insecurity  
+
+### Significant Regression Findings
+- **Age** significantly affects labour productivity  
+- **Sector** significantly affects labour productivity  
+- Food insecurity determinants are **multifactorial**, no single variable dominates  
+
+---
+
+## Demographic Profile for Targeting
+
+| Characteristic       | Finding                  | Targeting Implication                            |
+|---------------------|-------------------------|-------------------------------------------------|
+| Gender              | 78.52% male             | Don’t neglect 21.48% female-headed households |
+| Age                 | Mean 41.61 years        | Working-age population is at risk              |
+| Household Size      | 5–6 members             | High dependency ratios                          |
+| Insurance Coverage  | Low                     | Out-of-pocket vulnerability                     |
+| Common Illness      | Malaria, typhoid        | Preventable diseases dominate                   |
+
+---
+
+## Policy Implication  
+- Target interventions using **income, borrowing behaviour, and consumption patterns** as early-warning indicators.  
+- Focus on **working-age, high-dependency households**, and **female-headed households**. Preventive health measures for malaria and typhoid can improve productivity and reduce food insecurity.
+
+
 
 ---
