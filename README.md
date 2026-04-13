@@ -3,23 +3,23 @@
 ---
 
 ## 📑 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Data Source & Methodology](#data-source--methodology)
-3. [Tools](#tools)
-4. [Research Objectives](#research-objectives)
-5. [Results](#results)
-   - [Objective 1: Socioeconomic Characteristics](#objective-1-socioeconomic-characteristics-of-individuals)
-   - [Objective 2: Health and Consultation Patterns](#objective-2-health-and-consultation-patterns)
-   - [Objective 3: Food Security and Influencing Factors](#objective-3-food-security-and-influencing-factors)
-   - [Objective 4: Regression & Predictive Modelling](#objective-4-regression--predictive-modelling)
-6. [Results Dashboards & Visuals](#results-dashboards--visuals)
- [Key Study Statistics](#key-study-statistics)
-7. [The Climate-Health-Productivity Nexus](#the-climate-health-productivity-nexus)
-8. [Critical Findings for Intervention Design](#critical-findings-for-intervention-design)
-   - [Top ML Predictors of Vulnerability](#top-ml-predictors-of-vulnerability)
-   - [Significant Regression Findings](#significant-regression-findings)
-9. [Demographic Profile for Targeting](#demographic-profile-for-targeting)
-10. [Policy Implication](#Policy-Implication)
+1. [Project Overview](#project-overview)  
+2. [Data Source & Methodology](#data-source--methodology)  
+3. [Tools](#tools)  
+4. [Research Objectives](#research-objectives)  
+5. [Key Results](#key-results)  
+   - [Socioeconomic Characteristics](#socioeconomic-characteristics)  
+   - [Health and Consultation Patterns](#health-and-consultation-patterns)  
+   - [Food Insecurity and Influencing Factors](#food-insecurity-and-influencing-factors)  
+   - [Regression & Predictive Modelling](#regression--predictive-modelling)  
+6. [Results Dashboards & Visuals](#results-dashboards--visuals)  
+7. [Key Study Statistics](#key-study-statistics)  
+8. [The Climate-Health-Productivity Nexus](#the-climate-health-productivity-nexus)  
+9. [Critical Findings for Intervention Design](#critical-findings-for-intervention-design)  
+   - [Top ML Predictors of Vulnerability](#top-ml-predictors-of-vulnerability)  
+   - [Significant Regression Findings](#significant-regression-findings)  
+10. [Demographic Profile for Targeting](#demographic-profile-for-targeting)  
+11. [Policy Implication](#policy-implication)
 
 
 ---
@@ -121,9 +121,8 @@ This study examines socioeconomic characteristics, health consultation patterns,
 
 ## The Climate-Health-Productivity Nexus
 
-Climate Events → Disease Outbreaks → Health Costs → Reduced Productivity → Food Insecurity
-↓ (malaria, typhoid) ↓ ↓ ↓
-Floods/Heat → Out-of-pocket spending → Lost workdays → Income loss → Hunger/Borrowing
+Climate Events → Floods / Heatwaves → Disease Outbreaks (e.g. malaria, typhoid) → Increased Health Burden
+→ Higher Out-of-Pocket Healthcare Costs → Lost Workdays / Reduced Labour Productivity → Household Income Loss → Food Insecurity → Coping Mechanisms (hunger, borrowing)
 
 
 **Interpretation:**  
