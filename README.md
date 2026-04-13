@@ -1,80 +1,154 @@
-# Quantifying the Economic Burden of Climate-Induced Health Risks in Nigeria
+# Quantifying the Economic Burden of Climate-Induced Health Risks in Nigeria: A Technical Case Study
+
+---
+
+## Executive Summary
+
+Even a single day of climate-induced illness (e.g., malaria, typhoid) creates a measurable ripple effect on household food security in Nigeria.
+
+This study applies **econometric modelling and machine learning** to connect **health shocks with labour productivity loss and food insecurity**, demonstrating how climate-related risks translate into economic vulnerability.
+
+---
+
+## Tech Stack
+**Python (Pandas, NumPy, Statsmodels, Scikit-learn, XGBoost)** | **Power BI** | **Excel** |**Econometric Modelling**
 
 ---
 
 ## 📑 Table of Contents
 1. [Project Overview](#project-overview)  
 2. [Data Source & Methodology](#data-source--methodology)  
-3. [Tools](#tools)  
-4. [Research Objectives](#research-objectives)  
-5. [Key Results](#key-results)  
-   - [Socioeconomic Characteristics](#socioeconomic-characteristics)  
-   - [Health and Consultation Patterns](#health-and-consultation-patterns)  
-   - [Food Insecurity and Influencing Factors](#food-insecurity-and-influencing-factors)  
-   - [Regression & Predictive Modelling](#regression--predictive-modelling)  
-6. [Results Dashboards & Visuals](#results-dashboards--visuals)  
-7. [Key Study Statistics](#key-study-statistics)  
-8. [The Climate-Health-Productivity Nexus](#the-climate-health-productivity-nexus)  
-9. [Critical Findings for Intervention Design](#critical-findings-for-intervention-design)  
-   - [Top ML Predictors of Vulnerability](#top-ml-predictors-of-vulnerability)  
-   - [Significant Regression Findings](#significant-regression-findings)  
-10. [Demographic Profile for Targeting](#demographic-profile-for-targeting)  
-11. [Policy Implication](#policy-implication)
-
+3. [Research Objectives](#research-objectives)  
+4. [Analytical Framework](#analytical-framework)  
+5. [Key Findings: The Productivity Drain](#key-findings-the-productivity-drain)  
+6. [Food Insecurity: A Complex Outcome](#food-insecurity-a-complex-outcome)  
+7. [Machine Learning Insights](#machine-learning-insights)  
+8. [Technical Note: The ML Paradox](#technical-note-the-ml-paradox)  
+9. [Results Dashboards & Visuals](#results-dashboards--visuals)  
+10. [Key Study Statistics](#key-study-statistics)  
+11. [Limitations & Future Work](#limitations--future-work)  
+12. [Policy Implications](#policy-implications)  
 
 ---
 
 ## Project Overview
-Climate change is increasingly imposing economic and health burdens in Nigeria. Rising incidences of floods, heatwaves, and disease outbreaks affect **labour productivity** and **food security**.  
 
-This study examines socioeconomic characteristics, health consultation patterns, food insecurity prevalence, and the economic consequences of climate-related health risks using robust regression and machine learning models. Analysis combines descriptive statistics, predictive modelling, and visualisation to inform policy and development interventions.
+Climate change is increasingly imposing **measurable economic and health burdens** in Nigeria. Floods, heatwaves, and disease outbreaks reduce labour productivity and weaken household resilience.
+
+### 📌 Study Positioning
+This study is best interpreted as a **proof-of-concept (pilot analysis)** demonstrating a scalable framework for quantifying climate-health-economic linkages using microdata.
+
+👉 The approach can be extended to larger datasets such as the **Nigerian General Household Survey (GHS)**.
 
 ---
 
 ## Data Source & Methodology
-- **Dataset:** Nigerian Bureau of Statistics (NBS) microdata on health, labour, and food security  
-- **Sample:** 135 individuals; data cleaned and formatted in Excel  
-- **Analysis:** Descriptive statistics | Logistic regression | Robust linear regression | Machine learning (Random Forest, XGBoost) | Development impact evaluation  
-- **Variables:** Health costs, labour productivity, food insecurity, socioeconomic and regional factors  
 
----
+- **Dataset:** Nigerian Bureau of Statistics (NBS) microdata  
+- **Sample:** 135 individuals  
+- **Design:** Cross-sectional  
 
-## Tools
-- **Power BI** – interactive dashboards with AI features for analysis of health costs and productivity  
-- **Python** – Pandas, Numpy, Statsmodels, Scikit-learn, XGBoost, Matplotlib for regression, predictive modelling, and data visualisation  
+### Methods
+- Descriptive statistics  
+- Logistic regression (food insecurity)  
+- Robust linear regression (productivity outcomes)  
+- Machine learning (Random Forest, XGBoost)  
+
+### Key Variables
+- Health costs (proxy for economic burden)  
+- Labour productivity (hours worked, absenteeism)  
+- Food insecurity indicators  
+- Socioeconomic and demographic factors  
 
 ---
 
 ## Research Objectives
-1. Describe the socioeconomic characteristics of individuals affected by climate-induced health risks  
-2. Examine health consultation patterns and insurance uptake  
-3. Assess food insecurity prevalence and key determinants  
-4. Model relationships between health costs, labour productivity, and socioeconomic factors  
+
+- **Quantify** socioeconomic vulnerability to climate-induced health risks  
+- **Evaluate** gaps between health consultation patterns and insurance coverage  
+- **Model** the transmission of health shocks into measurable labour productivity loss  
+- **Assess** food insecurity prevalence and its structural drivers  
 
 ---
 
-## Key Results
+## Analytical Framework
 
-### Socioeconomic Characteristics
-- Predominantly male (**78.52%**)  
-- Mean age: 41.61 years  
-- Household size: 5–6 members  
-- Education levels vary, significant proportion with limited formal schooling  
+**Climate Shock Transmission Pathway:**
 
-### Health and Consultation Patterns
-- Average hours worked: 198.87  
-- Average absence due to illness: 0.98 days  
-- Common illnesses: malaria, typhoid, headaches, ulcers  
-- Low insurance coverage; most pay out-of-pocket  
+Climate Events → Disease Burden → Health Costs → Productivity Loss → Income Decline → Food Insecurity → Coping Strategies  
 
-### Food Insecurity and Influencing Factors
-- Prevalence: 16.3% of individuals experienced food insecurity  
-- Key variables examined: health costs, days off work, gender, sector, region  
-- Logistic regression indicates no variable was statistically significant, reflecting complex and heterogeneous determinants  
+**Insight:**  
+Climate shocks operate as a **chain reaction**, amplifying economic vulnerability through health-related productivity loss.
 
-### Regression & Predictive Modelling
-- **Robust linear regression:** Age and sector significantly affect labour productivity  
-- **Machine learning:** Random Forest (97.78% CV accuracy) and XGBoost (97.04% CV accuracy) identify income, food borrowing, and restricted consumption as top predictors  
+---
+
+## Key Findings: The Productivity Drain
+
+### The 1-Day Impact
+- Average illness-related absence: **0.98 days/month**  
+
+👉 This represents approximately:
+- **~5% loss in monthly productive capacity** for low-income workers  
+
+**Interpretation:**  
+Seemingly small health shocks translate into **meaningful economic losses at scale**.
+
+---
+
+### Structural Barriers
+- **Age** significantly affects labour productivity *(p < 0.05)*  
+- **Sector** significantly affects labour productivity *(p < 0.05)*  
+
+👉 Productivity is shaped not only by health shocks but by **structural labour inequalities**  
+👉 Older and informal-sector workers are disproportionately affected
+
+---
+
+## Food Insecurity: A Complex Outcome
+
+- Prevalence: **16.3% (≈1 in 6 individuals)**  
+
+### Regression Result
+No statistically significant predictors identified.
+
+### Interpretation
+- Suggests **multidimensional and systemic drivers**  
+- Likely influenced by **unobserved structural factors**  
+- Reflects **limited statistical power due to small sample size**
+
+👉 This highlights the **complexity of food insecurity beyond single-variable explanations**
+
+---
+
+## Machine Learning Insights
+
+### Primary Stressors
+- Monthly hours worked  
+- Illness frequency  
+
+### Coping Indicators (Strongest Predictors)
+- Food borrowing  
+- Restricted consumption  
+
+👉 These act as **early warning signals of household vulnerability**
+
+---
+
+## Technical Note: The ML Paradox
+
+**Model Performance:**
+- Random Forest Accuracy: **97.78%**  
+- XGBoost Accuracy: **97.04%**
+
+### Critical Interpretation
+Given the small sample size (n=135), these high accuracy scores likely reflect **overfitting rather than generalisable predictive performance**.
+
+### Analytical Approach
+This study prioritises:
+- **Feature importance** over raw accuracy  
+- **Interpretability** over prediction  
+
+👉 The goal is not *prediction* but **understanding vulnerability dynamics**
 
 ---
 
@@ -109,57 +183,49 @@ This study examines socioeconomic characteristics, health consultation patterns,
 
 ## Key Study Statistics
 
-| Metric           | Value                    | Policy Implication                                 |
-|-----------------|-------------------------|---------------------------------------------------|
-| Sample           | 135 individuals         | Microdata for targeted interventions             |
-| Food Insecurity  | 16.3% prevalence        | 1 in 6 households vulnerable                     |
-| Avg Hours Worked | 198.87/month            | Productivity baseline to protect                 |
-| Illness Absence  | 0.98 days avg           | Economic cost of climate-related health impacts  |
-| ML Accuracy      | 97%+ (RF & XGBoost)    | Predictive targeting is possible                 |
+| Metric | Value | Insight |
+|------|------|--------|
+| Sample Size | 135 | Pilot-level evidence |
+| Food Insecurity | 16.3% | Significant vulnerability |
+| Avg Hours Worked | 198.87/month | Productivity baseline |
+| Illness Absence | 0.98 days | Hidden economic cost |
+| ML Accuracy | ~97% | Interpret with caution |
 
 ---
 
-## The Climate-Health-Productivity Nexus
+## Limitations & Future Work
 
-Climate Events → Floods / Heatwaves → Disease Outbreaks (e.g. malaria, typhoid) → Increased Health Burden
-→ Higher Out-of-Pocket Healthcare Costs → Lost Workdays / Reduced Labour Productivity → Household Income Loss → Food Insecurity → Coping Mechanisms (hunger, borrowing)
+- Small sample size (n=135) limits statistical power and generalisability  
+- Cross-sectional design prevents causal inference  
+- Machine learning results may reflect **overfitting**  
+- Food insecurity drivers may be under-specified  
 
+### Methodological Note
+While regression models identified key trends, future iterations would benefit from **formal multicollinearity diagnostics (e.g., VIF tests)** to ensure independent variables are not masking each other's effects.
 
-**Interpretation:**  
-Climate shocks like floods and heat waves increase disease burden, driving **health expenditures, lost workdays, income reduction, and food insecurity**.  
-
----
-
-## Critical Findings for Intervention Design
-
-### Top ML Predictors of Vulnerability
-- **Income level** – Primary determinant of household resilience  
-- **Food borrowing** – Early warning signal for crisis  
-- **Restricted consumption** – Indicator of imminent food insecurity  
-
-### Significant Regression Findings
-- **Age** significantly affects labour productivity  
-- **Sector** significantly affects labour productivity  
-- Food insecurity determinants are **multifactorial**, no single variable dominates  
+👉 This study serves as a **scalable analytical framework** for larger datasets.
 
 ---
 
-## Demographic Profile for Targeting
+## Policy Implications
 
-| Characteristic       | Finding                  | Targeting Implication                            |
-|---------------------|-------------------------|-------------------------------------------------|
-| Gender              | 78.52% male             | Don’t neglect 21.48% female-headed households |
-| Age                 | Mean 41.61 years        | Working-age population is at risk              |
-| Household Size      | 5–6 members             | High dependency ratios                          |
-| Insurance Coverage  | Low                     | Out-of-pocket vulnerability                     |
-| Common Illness      | Malaria, typhoid        | Preventable diseases dominate                   |
+### Core Recommendation
+
+**Shift from reactive food aid to proactive malaria prevention as a strategy for protecting labour productivity.**
+
+### Supporting Actions
+- Use **food borrowing and consumption patterns** as early warning indicators  
+- Target **informal-sector and high-dependency households**  
+- Expand access to **preventive healthcare**  
+- Improve **insurance coverage** to reduce out-of-pocket burden  
+
+---
+
+## 📌 Data Source Credit
+Nigerian Bureau of Statistics (NBS)
 
 ---
 
-## Policy Implication  
-- Target interventions using **income, borrowing behaviour, and consumption patterns** as early-warning indicators.  
-- Focus on **working-age, high-dependency households**, and **female-headed households**. Preventive health measures for malaria and typhoid can improve productivity and reduce food insecurity.
+## Final Note
 
-
-
----
+This project demonstrates how **climate-induced health shocks translate into economic vulnerability**, and provides a **data-driven framework for designing targeted, preventive interventions**.
